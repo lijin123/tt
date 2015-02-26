@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_litepal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="使用LitePal创建数据库" />
+
+        <Button
+            android:id="@+id/btn_nomal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="使用SQLiteOpenHelper创建数据库" />
+
+        <Button
+            android:id="@+id/btn_savenomal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="普通save" />
+
+        <Button
+            android:id="@+id/btn_updatanomal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="普通update" />
+
+        <Button
+            android:id="@+id/btn_deletenomal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="普通delete" />
+
+        <Button
+            android:id="@+id/btn_savelitepal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="litepalsave" />
+
+        <Button
+            android:id="@+id/btn_commentlitepal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="litepalcomment" />
+
+        <Button
+            android:id="@+id/btn_updatelitepal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="litepalupdate" />
+
+        <Button
+            android:id="@+id/btn_updatealllitepal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="litepalupdateall" />
+    </LinearLayout>
+
+</ScrollView>
